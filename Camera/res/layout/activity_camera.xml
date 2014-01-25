@@ -10,26 +10,25 @@
     tools:context=".Camera" >
 
     <ImageView
-        android:id="@+id/Capture"
+        android:id="@+id/ivReturnedPic"
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:layout_marginLeft="18dp"
         android:maxWidth="@dimen/activity_horizontal_margin"
         android:src="@drawable/ic_launcher" />
 
-    <Button
-        android:id="@+id/bSetWall"
-        android:layout_width="wrap_content"
+    <ImageButton
+        android:id="@+id/ibTakePic"
+        android:layout_width="125dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="23dp"
-        android:text="@string/SetWall" />
+        android:src="@drawable/ic_launcher" />
 
     <Button
-        android:id="@+id/ibTakePic"
-        android:layout_width="wrap_content"
+        android:id="@+id/bSetWall"
+        android:layout_width="125dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/TakePictures" />
+        android:text="Set Wallpaper" />
 
 </LinearLayout>
