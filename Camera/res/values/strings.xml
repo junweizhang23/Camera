@@ -4,5 +4,8 @@
     <string name="app_name">Camera</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="PictureCrapSend">CandS</string>
+    <string name="SetWall">SetWall</string>
+    <string name="TakePictures">takepicutre</string>
 
 </resources>
